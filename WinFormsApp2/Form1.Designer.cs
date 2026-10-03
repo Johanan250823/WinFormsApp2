@@ -45,6 +45,7 @@
             // 
             // BTN_Min
             // 
+<<<<<<< HEAD
             BTN_Min.BackColor = Color.DodgerBlue;
             BTN_Min.Location = new Point(371, 0);
             BTN_Min.Name = "BTN_Min";
@@ -53,6 +54,69 @@
             BTN_Min.Text = "-";
             BTN_Min.UseVisualStyleBackColor = false;
             BTN_Min.Click += BTN_Min_Click;
+=======
+            groupBox1.Controls.Add(button5);
+            groupBox1.Controls.Add(button4);
+            groupBox1.Controls.Add(button3);
+            groupBox1.Controls.Add(button2);
+            groupBox1.Controls.Add(button1);
+            groupBox1.Location = new Point(25, 183);
+            groupBox1.Margin = new Padding(3, 4, 3, 4);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Padding = new Padding(3, 4, 3, 4);
+            groupBox1.Size = new Size(448, 379);
+            groupBox1.TabIndex = 1;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "groupBox1";
+            // 
+            // button2
+            // 
+            button2.Location = new Point(151, 85);
+            button2.Margin = new Padding(3, 4, 3, 4);
+            button2.Name = "button2";
+            button2.Size = new Size(110, 33);
+            button2.TabIndex = 1;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            groupBox2.Location = new Point(25, 57);
+            groupBox2.Margin = new Padding(3, 4, 3, 4);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Padding = new Padding(3, 4, 3, 4);
+            groupBox2.Size = new Size(448, 117);
+            groupBox2.TabIndex = 2;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "groupBox2";
+            // 
+            // button3
+            // 
+            button3.Location = new Point(18, 206);
+            button3.Name = "button3";
+            button3.Size = new Size(80, 29);
+            button3.TabIndex = 2;
+            button3.Text = "Oblitas";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(130, 206);
+            button4.Name = "button4";
+            button4.Size = new Size(76, 29);
+            button4.TabIndex = 3;
+            button4.Text = "Rengifo";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(239, 206);
+            button5.Name = "button5";
+            button5.Size = new Size(79, 29);
+            button5.TabIndex = 4;
+            button5.Text = "Fabricio";
+            button5.UseVisualStyleBackColor = true;
+>>>>>>> Fabricio
             // 
             // Form1
             // 
