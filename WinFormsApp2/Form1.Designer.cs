@@ -47,7 +47,6 @@
             groupBox1.Size = new Size(448, 379);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
-            groupBox1.Text = "groupBox1";
             // 
             // button5
             // 
@@ -55,7 +54,7 @@
             button5.Name = "button5";
             button5.Size = new Size(79, 29);
             button5.TabIndex = 4;
-            button5.Text = "Fabricio";
+            button5.Text = "3";
             button5.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -64,7 +63,7 @@
             button4.Name = "button4";
             button4.Size = new Size(76, 29);
             button4.TabIndex = 3;
-            button4.Text = "Rengifo";
+            button4.Text = "2";
             button4.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -73,7 +72,7 @@
             button3.Name = "button3";
             button3.Size = new Size(80, 29);
             button3.TabIndex = 2;
-            button3.Text = "Oblitas";
+            button3.Text = "1";
             button3.UseVisualStyleBackColor = true;
             // 
             // Form1
