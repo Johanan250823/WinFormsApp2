@@ -28,29 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            bntSuma = new Button();
             groupBox1 = new GroupBox();
+            bntResta = new Button();
+            bntMultiplicacion = new Button();
+            bntDivicion = new Button();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
-            // button1
+            // bntSuma
             // 
-            button1.Location = new Point(15, 228);
-            button1.Name = "button1";
-            button1.Size = new Size(135, 40);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            bntSuma.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            bntSuma.Location = new Point(271, 120);
+            bntSuma.Name = "bntSuma";
+            bntSuma.Size = new Size(52, 40);
+            bntSuma.TabIndex = 0;
+            bntSuma.Text = "+";
+            bntSuma.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(button1);
+            groupBox1.BackColor = SystemColors.ActiveCaptionText;
+            groupBox1.Controls.Add(bntDivicion);
+            groupBox1.Controls.Add(bntMultiplicacion);
+            groupBox1.Controls.Add(bntResta);
+            groupBox1.Controls.Add(bntSuma);
             groupBox1.Location = new Point(121, 38);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(200, 337);
+            groupBox1.Size = new Size(329, 361);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "groupBox1";
+            // 
+            // bntResta
+            // 
+            bntResta.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            bntResta.Location = new Point(271, 166);
+            bntResta.Name = "bntResta";
+            bntResta.Size = new Size(52, 40);
+            bntResta.TabIndex = 1;
+            bntResta.Text = "-";
+            bntResta.UseVisualStyleBackColor = true;
+            // 
+            // bntMultiplicacion
+            // 
+            bntMultiplicacion.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            bntMultiplicacion.Location = new Point(271, 212);
+            bntMultiplicacion.Name = "bntMultiplicacion";
+            bntMultiplicacion.Size = new Size(52, 40);
+            bntMultiplicacion.TabIndex = 2;
+            bntMultiplicacion.Text = "x";
+            bntMultiplicacion.UseVisualStyleBackColor = true;
+            // 
+            // bntDivicion
+            // 
+            bntDivicion.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            bntDivicion.Location = new Point(271, 258);
+            bntDivicion.Name = "bntDivicion";
+            bntDivicion.Size = new Size(52, 40);
+            bntDivicion.TabIndex = 3;
+            bntDivicion.Text = "/";
+            bntDivicion.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -66,7 +104,10 @@
 
         #endregion
 
-        private Button button1;
+        private Button bntSuma;
         private GroupBox groupBox1;
+        private Button bntDivicion;
+        private Button bntMultiplicacion;
+        private Button bntResta;
     }
 }
