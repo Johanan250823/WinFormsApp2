@@ -6,5 +6,7 @@ namespace WinFormsApp2
         {
             InitializeComponent();
         }
+        
+        
     }
 }
