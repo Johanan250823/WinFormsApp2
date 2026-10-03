@@ -7,14 +7,14 @@ namespace WinFormsApp2
             InitializeComponent();
         }
 
-        private void BTN_Cerrar_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
         private void BTN_Min_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void BTN_Cerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
