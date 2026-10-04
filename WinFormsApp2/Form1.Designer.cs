@@ -36,6 +36,7 @@
             button4 = new Button();
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
+            textBox1 = new TextBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -208,7 +209,7 @@
             groupBox1.Controls.Add(btnNumero1);
             groupBox1.Controls.Add(btnNumero2);
             groupBox1.Controls.Add(btnNumero3);
-            groupBox1.Location = new Point(10, 197);
+            groupBox1.Location = new Point(12, 136);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(283, 257);
             groupBox1.TabIndex = 1;
@@ -221,11 +222,19 @@
             groupBox2.Controls.Add(bntMultiplicacion);
             groupBox2.Controls.Add(bntDivicion);
             groupBox2.Controls.Add(button4);
-            groupBox2.Location = new Point(312, 197);
+            groupBox2.Location = new Point(315, 136);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(87, 257);
             groupBox2.TabIndex = 13;
             groupBox2.TabStop = false;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(22, 51);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(366, 65);
+            textBox1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -233,7 +242,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             BackgroundImageLayout = ImageLayout.Center;
-            ClientSize = new Size(423, 481);
+            ClientSize = new Size(423, 417);
+            Controls.Add(textBox1);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Controls.Add(BTN_Min);
@@ -247,6 +257,7 @@
             groupBox1.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -281,5 +292,8 @@
         // Contenedores
         private GroupBox groupBox1;
         private GroupBox groupBox2;
+
+        // Único elemento agregado de Cat
+        private TextBox textBox1;
     }
 }
