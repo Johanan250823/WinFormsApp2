@@ -55,7 +55,7 @@
             // BTN_Min
             // 
             BTN_Min.BackColor = Color.DodgerBlue;
-            BTN_Min.Location = new Point(349, 0);
+            BTN_Min.Location = new Point(354, 0);
             BTN_Min.Margin = new Padding(3, 4, 3, 4);
             BTN_Min.Name = "BTN_Min";
             BTN_Min.Size = new Size(34, 28);
