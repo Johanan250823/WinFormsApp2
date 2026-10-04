@@ -10,6 +10,7 @@
             {
                 components.Dispose();
             }
+
             base.Dispose(disposing);
         }
 
@@ -25,12 +26,15 @@
             btnNumero1 = new Button();
             btnNumero2 = new Button();
             btnNumero3 = new Button();
+            button7 = new Button();
+            button8 = new Button();
+            button9 = new Button();
             bntSuma = new Button();
             bntResta = new Button();
             bntMultiplicacion = new Button();
             bntDivicion = new Button();
-            groupBox1 = new GroupBox();
             button4 = new Button();
+            groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -39,9 +43,10 @@
             // BTN_Cerrar
             // 
             BTN_Cerrar.BackColor = Color.Red;
-            BTN_Cerrar.Location = new Point(402, 0);
+            BTN_Cerrar.Location = new Point(389, 0);
+            BTN_Cerrar.Margin = new Padding(3, 4, 3, 4);
             BTN_Cerrar.Name = "BTN_Cerrar";
-            BTN_Cerrar.Size = new Size(30, 21);
+            BTN_Cerrar.Size = new Size(34, 28);
             BTN_Cerrar.TabIndex = 3;
             BTN_Cerrar.Text = "X";
             BTN_Cerrar.UseVisualStyleBackColor = false;
@@ -50,9 +55,10 @@
             // BTN_Min
             // 
             BTN_Min.BackColor = Color.DodgerBlue;
-            BTN_Min.Location = new Point(371, 0);
+            BTN_Min.Location = new Point(354, 0);
+            BTN_Min.Margin = new Padding(3, 4, 3, 4);
             BTN_Min.Name = "BTN_Min";
-            BTN_Min.Size = new Size(30, 21);
+            BTN_Min.Size = new Size(34, 28);
             BTN_Min.TabIndex = 4;
             BTN_Min.Text = "-";
             BTN_Min.UseVisualStyleBackColor = false;
@@ -60,9 +66,9 @@
             // 
             // button1
             // 
-            button1.Location = new Point(39, 138);
+            button1.Location = new Point(31, 109);
             button1.Name = "button1";
-            button1.Size = new Size(60, 34);
+            button1.Size = new Size(64, 33);
             button1.TabIndex = 5;
             button1.Text = "4";
             button1.UseVisualStyleBackColor = true;
@@ -70,18 +76,18 @@
             // 
             // button2
             // 
-            button2.Location = new Point(117, 138);
+            button2.Location = new Point(112, 109);
             button2.Name = "button2";
-            button2.Size = new Size(58, 34);
+            button2.Size = new Size(62, 33);
             button2.TabIndex = 6;
             button2.Text = "5";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Location = new Point(204, 138);
+            button3.Location = new Point(196, 109);
             button3.Name = "button3";
-            button3.Size = new Size(51, 34);
+            button3.Size = new Size(55, 33);
             button3.TabIndex = 7;
             button3.Text = "6";
             button3.UseVisualStyleBackColor = true;
@@ -89,30 +95,57 @@
             // 
             // btnNumero1
             // 
-            btnNumero1.Location = new Point(39, 192);
+            btnNumero1.Location = new Point(31, 163);
             btnNumero1.Name = "btnNumero1";
-            btnNumero1.Size = new Size(60, 29);
+            btnNumero1.Size = new Size(64, 33);
             btnNumero1.TabIndex = 2;
             btnNumero1.Text = "1";
             btnNumero1.UseVisualStyleBackColor = true;
             // 
             // btnNumero2
             // 
-            btnNumero2.Location = new Point(117, 192);
+            btnNumero2.Location = new Point(112, 163);
             btnNumero2.Name = "btnNumero2";
-            btnNumero2.Size = new Size(58, 29);
+            btnNumero2.Size = new Size(62, 33);
             btnNumero2.TabIndex = 3;
             btnNumero2.Text = "2";
             btnNumero2.UseVisualStyleBackColor = true;
             // 
             // btnNumero3
             // 
-            btnNumero3.Location = new Point(204, 192);
+            btnNumero3.Location = new Point(196, 163);
             btnNumero3.Name = "btnNumero3";
-            btnNumero3.Size = new Size(51, 29);
+            btnNumero3.Size = new Size(55, 33);
             btnNumero3.TabIndex = 4;
             btnNumero3.Text = "3";
             btnNumero3.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            button7.Location = new Point(31, 55);
+            button7.Name = "button7";
+            button7.Size = new Size(64, 33);
+            button7.TabIndex = 12;
+            button7.Text = "7";
+            button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            button8.Location = new Point(112, 55);
+            button8.Name = "button8";
+            button8.Size = new Size(62, 33);
+            button8.TabIndex = 13;
+            button8.Text = "8";
+            button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            button9.Location = new Point(196, 55);
+            button9.Name = "button9";
+            button9.Size = new Size(55, 33);
+            button9.TabIndex = 14;
+            button9.Text = "9";
+            button9.UseVisualStyleBackColor = true;
             // 
             // bntSuma
             // 
@@ -154,20 +187,6 @@
             bntDivicion.Text = "/";
             bntDivicion.UseVisualStyleBackColor = true;
             // 
-            // groupBox1
-            // 
-            groupBox1.Controls.Add(btnNumero1);
-            groupBox1.Controls.Add(btnNumero2);
-            groupBox1.Controls.Add(btnNumero3);
-            groupBox1.Controls.Add(button1);
-            groupBox1.Controls.Add(button2);
-            groupBox1.Controls.Add(button3);
-            groupBox1.Location = new Point(12, 266);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(283, 257);
-            groupBox1.TabIndex = 1;
-            groupBox1.TabStop = false;
-            // 
             // button4
             // 
             button4.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -178,14 +197,31 @@
             button4.Text = "=";
             button4.UseVisualStyleBackColor = true;
             // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(button7);
+            groupBox1.Controls.Add(button8);
+            groupBox1.Controls.Add(button9);
+            groupBox1.Controls.Add(button1);
+            groupBox1.Controls.Add(button2);
+            groupBox1.Controls.Add(button3);
+            groupBox1.Controls.Add(btnNumero1);
+            groupBox1.Controls.Add(btnNumero2);
+            groupBox1.Controls.Add(btnNumero3);
+            groupBox1.Location = new Point(10, 197);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(283, 257);
+            groupBox1.TabIndex = 1;
+            groupBox1.TabStop = false;
+            // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(bntDivicion);
-            groupBox2.Controls.Add(button4);
             groupBox2.Controls.Add(bntSuma);
             groupBox2.Controls.Add(bntResta);
             groupBox2.Controls.Add(bntMultiplicacion);
-            groupBox2.Location = new Point(314, 266);
+            groupBox2.Controls.Add(bntDivicion);
+            groupBox2.Controls.Add(button4);
+            groupBox2.Location = new Point(312, 197);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(87, 257);
             groupBox2.TabIndex = 13;
@@ -197,12 +233,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             BackgroundImageLayout = ImageLayout.Center;
-            ClientSize = new Size(432, 550);
+            ClientSize = new Size(423, 481);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Controls.Add(BTN_Min);
             Controls.Add(BTN_Cerrar);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
@@ -217,24 +254,32 @@
         private Button BTN_Cerrar;
         private Button BTN_Min;
 
-        // Números 4, 5 y 6
+        // 4, 5 y 6
         private Button button1;
         private Button button2;
         private Button button3;
 
-        // Números 1, 2 y 3
+        // 1, 2 y 3
         private Button btnNumero1;
         private Button btnNumero2;
         private Button btnNumero3;
 
-        private GroupBox groupBox1;
+        // 7, 8 y 9
+        private Button button7;
+        private Button button8;
+        private Button button9;
 
-        // Operaciones de Jefferson
+        // Operaciones
         private Button bntSuma;
         private Button bntResta;
         private Button bntMultiplicacion;
         private Button bntDivicion;
+
+        // =
         private Button button4;
+
+        // Contenedores
+        private GroupBox groupBox1;
         private GroupBox groupBox2;
     }
 }
